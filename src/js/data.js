@@ -3,6 +3,7 @@ const dataSource = {}; // eslint-disable-line no-unused-vars
 dataSource.products = {
   cake: {
     class: 'small',
+    caswqa: 'blablabla',
     name: 'Zio Stefano\'s Doughnut',
     price: 9,
     description: 'Treat yourself with this soft, freshly baked cookie. The recipe has been handed down from generation to generation in our family and it has won us several first place prizes in local competitions.',
