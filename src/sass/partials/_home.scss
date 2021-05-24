@@ -1,0 +1,161 @@
+.intro {
+  margin-top: 50px;
+}
+
+.gallery {
+  margin-top: 110px;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.col-12:hover .image {
+  opacity: 0.7;
+}
+
+.col-12:hover .card-icon {
+  visibility: visible;
+}
+
+.fa-heart:hover, .fa-share-alt:hover {
+  color: #ff6b6b;
+}
+
+.image-order {
+  height: 130px;
+  width: 320px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.image-book {
+  height: 130px;
+  width: 320px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.card-body-hidden {
+  position: absolute;
+  left: 60px;
+  top: 10px;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 200px;
+  visibility: hidden;
+}
+
+.card-body-hidden p {
+  font-size: 12px;
+  text-transform: none;
+}
+
+.order:hover .card-body-hidden {
+  visibility: visible;
+}
+
+.order:hover .card-body {
+  visibility: hidden;
+}
+
+.open-hours {
+  height: 150px;
+  width: auto;
+  object-fit: cover;
+  background: #ff6b6b;
+  border-radius: 5px;
+  padding: 0;
+  text-align: center;
+}
+
+.order {
+  padding: 0;
+}
+
+.card-body {
+  position: absolute;
+  left: 60px;
+  top: 30px;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.card-open {
+  position: absolute;
+  left: 210px;
+  top: 20px;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.card-image {
+  margin-bottom: 5px;
+}
+
+.card-icon {
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  color: white;
+  font-size: 24px;
+  visibility: hidden;
+}
+
+.fas {
+  margin: 5px;
+}
+
+.container-images {
+  max-width: 1140px;
+  padding: 0 20px;
+  text-align: center;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}*/
+
+.main-carousel {
+  padding: 100px 5px 20px 5px;
+}
+
+.carousel-cell {
+  width: 100%;
+  display: flex;
+}
+
+.image-carousel {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cell-text {
+  padding: 10px 30px;
+}
+
+.cell-text-signature {
+  font-style: italic;
+}
+
+.cell-text h3 {
+  text-transform: uppercase;
+}
